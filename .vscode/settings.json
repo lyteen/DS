@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "functional": "cpp",
+        "map": "cpp",
+        "system_error": "cpp"
+    }
+}
