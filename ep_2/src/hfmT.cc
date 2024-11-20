@@ -86,7 +86,7 @@ void HfmTree::Decode(hfmTNode *root, string str)
     {
         return;
     }
-    cout << "Hfm Decode:" << endl;
+    cout << "Hfm Decode:" << str << "->";
     hfmTNode *cur = root;
     for(auto i : str)
     {
