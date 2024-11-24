@@ -53,7 +53,7 @@ void HfmTree::PrintHfmTree(hfmTNode *root)
     PrintHfmTree(root->rChild);
 }
 
-void HfmTree::generateCode(hfmTNode *root,  unordered_map<ElemType, string> &codes, string str = "")
+void HfmTree::generateCode(hfmTNode *root, unordered_map<ElemType, string> &codes, string str = "")
 {
     if(!root)
     {
@@ -68,6 +68,21 @@ void HfmTree::generateCode(hfmTNode *root,  unordered_map<ElemType, string> &cod
 
     generateCode(root->lChild, codes, str + "0");
     generateCode(root->rChild, codes, str + "1");
+}
+
+string HfmTree::CreateCodes(unordered_map<ElemType, string> &codes, string str)
+{   
+    // Check if map have codes
+    if(codes.empty())
+    {
+        return "";
+    }
+    string hfmCode = "";
+    for(auto s : str)
+    {
+        hfmCode += codes.find(s)->second;
+    }
+    return hfmCode;
 }
 
 void HfmTree::PrintCodes(unordered_map<ElemType, string> &codes)
@@ -86,7 +101,7 @@ void HfmTree::Decode(hfmTNode *root, string str)
     {
         return;
     }
-    cout << "Hfm Decode:" << str << "->";
+    cout << "Hfm-Decode:" << str << "->";
     hfmTNode *cur = root;
     for(auto i : str)
     {

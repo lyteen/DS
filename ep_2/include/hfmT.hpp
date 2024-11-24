@@ -31,6 +31,7 @@ public:
     hfmTNode *CreateHfmTree(const vector<ElemType> &chars, const vector<int> &w);
     void PrintHfmTree(hfmTNode *root);
     void generateCode(hfmTNode *root, unordered_map<ElemType, string> &codes, string str);
+    string CreateCodes(unordered_map<ElemType, string> &codes, string str);
     void PrintCodes(unordered_map<ElemType, string> &codes);
     void Decode(hfmTNode *root, string str);
 };

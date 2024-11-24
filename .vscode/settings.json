@@ -5,6 +5,7 @@
         "iostream": "cpp",
         "functional": "cpp",
         "map": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "string": "cpp"
     }
 }
