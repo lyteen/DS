@@ -15,9 +15,6 @@
 using namespace cv;
 using namespace std;
 
-/*
-TODO:   thinking the radius work
-*/
 JPS::JPS(vector<vector<int>> grid, pair<int, int> start, pair<int, int> goal, int radius, int board_size) 
         :grid(grid), start(start), goal(goal), radius(radius), board_size(board_size) {}
 
@@ -99,7 +96,6 @@ bool JPS::findForcedNeighbor(const pair<int, int> &current_node, const pair<int,
     -Return Situation:
         1.return obstable node {-1, -1}
         2.return goal node
-        3.
 */
 pair<int, int> JPS::Jump(pair<int, int> node, pair<int, int> direction) {
     /*

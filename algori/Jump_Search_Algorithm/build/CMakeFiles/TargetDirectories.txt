@@ -1,3 +1,0 @@
-C:/Users/c1253/Desktop/acpp/Jump_Search_Algorithm/build/CMakeFiles/jps.dir
-C:/Users/c1253/Desktop/acpp/Jump_Search_Algorithm/build/CMakeFiles/edit_cache.dir
-C:/Users/c1253/Desktop/acpp/Jump_Search_Algorithm/build/CMakeFiles/rebuild_cache.dir

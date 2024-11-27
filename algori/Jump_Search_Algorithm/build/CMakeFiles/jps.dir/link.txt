@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\jps.dir/objects.a
-D:\Cpp\ucrt64\bin\ar.exe qc CMakeFiles\jps.dir/objects.a @CMakeFiles\jps.dir\objects1.rsp
-D:\Cpp\ucrt64\bin\c++.exe  -pthread -Wl,--whole-archive CMakeFiles\jps.dir/objects.a -Wl,--no-whole-archive -o jps.exe -Wl,--out-implib,libjps.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\jps.dir\linkLibs.rsp

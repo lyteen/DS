@@ -38,21 +38,25 @@ main idea:
 ![](reference/skip-list.gif)
 
 1. **search**
+
     traverse from top to bottom level to search same size val node.
     `Args:` num: search num.
     `Return:` bool
 
 2. **add**
+
     traverse from top to bottom level to find node val >= inserted value, then add it.
     `Args:` num: inserted num.
     `Return:` void
 
 3. **erase**
+
     traverse from top to bottom level to get erased node previous node, then update the previous node point. 
     `Args:` num: inserted num.
     `Return:` void
 
 4. **printNode**
+
     print head node from bottom level to top level.
     `Args:` NULL
     `Return:` void
