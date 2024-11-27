@@ -35,7 +35,7 @@ newNode(40, max(level, lv)):
 main function in `src\skipList.cc`
 
 main idea:
-![](reference\skip-list.gif)
+![](reference/skip-list.gif)
 
 1. **search**
     traverse from top to bottom level to search same size val node.
