@@ -60,3 +60,27 @@ main idea:
     print head node from bottom level to top level.
     `Args:` NULL
     `Return:` void
+
+## **Test**
+
+`src\main.cc`
+
+```
+SkipList:
+level:0
+->-1->1->2->3->4->5->6->7->8->9->10
+level:1
+->-1->3->5->6->8
+level:2
+->-1->6
+erase_num:8
+SkipList:
+level:0
+->-1->1->2->3->4->5->6->7->9->10
+level:1
+->-1->3->5->6
+level:2
+->-1->6
+search_num:7
+7 in skiplist
+```
