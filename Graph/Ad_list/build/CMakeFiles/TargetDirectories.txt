@@ -1,0 +1,3 @@
+C:/Users/c1253/Desktop/DS/Graph/Ad_list/build/CMakeFiles/graph.dir
+C:/Users/c1253/Desktop/DS/Graph/Ad_list/build/CMakeFiles/edit_cache.dir
+C:/Users/c1253/Desktop/DS/Graph/Ad_list/build/CMakeFiles/rebuild_cache.dir

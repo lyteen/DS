@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(graph_matrix)
+
+include_directories(include)
+
+add_executable(graph_matrix src/main.cc
+                            src/G_ad_matrix.cc)
