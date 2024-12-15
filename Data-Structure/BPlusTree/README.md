@@ -24,9 +24,9 @@ src code in `src\.cc`
     
 2. **SplitChild**
 
-    leaf_node: full_node->element[begin: mid], new_node->element[mid: end]
-    internal_node: full_node->element[begin: mid], new_node->element[mid + 1: end]
-    parent_node: add element[mid]
+    leaf_node: `full_node->element[begin: mid], new_node->element[mid: end]`
+    internal_node: `full_node->element[begin: mid], new_node->element[mid + 1: end]`
+    parent_node: `add element[mid]`
 
 3. **Search**
 
@@ -34,8 +34,8 @@ src code in `src\.cc`
 
 4. **DeleteNode**
 
-    leaf_node: erase element[key]
-    internal_node: judge is_UnderFlow ? this->HandleUnderflow : child_node->DeleteNode
+    leaf_node: `erase element[key]`
+    internal_node: `judge is_UnderFlow ? this->HandleUnderflow : child_node->DeleteNode`
 
     - **HandleUnderflow**
     
@@ -44,25 +44,25 @@ src code in `src\.cc`
 
     - **BorrowFromLeftSibling**
 
-        leaf_node: current_node insert left_node->element.back(), parent cope left_node->element.back(), left_node->element.pop_back();
-        internal_node: same
+        leaf_node: `current_node insert left_node->element.back(), parent cope left_node->element.back(), left_node->element.pop_back();`
+        internal_node: `same`
         
 
     - **BorrowFromRightSibling**
 
-        leaf_node: current_node insert right_node->element.front(), parent cope left_node->element.front(), right_node->element.erase[begin];
-        internal_node: same
+        leaf_node: `current_node insert right_node->element.front(), parent cope left_node->element.front(), right_node->element.erase[begin];`
+        internal_node: `same`
         
 
     - **MergeWithLeftSibing**
 
-        leaf_node: move current_node all element to left_node, parent_node erase current key, delete current_node.
-        internal_node: move and erase parent_node current key to left_node, same.
+        leaf_node: `move current_node all element to left_node, parent_node erase current key, delete current_node.`
+        internal_node: `move and erase parent_node current key to left_node, same.`
 
     - **MergeWithRightSibing**
 
-        leaf_node: move right_node all element to current_node, parent_node erase next key, delete right_node.
-        internal_node: move and erase parent_node next key to current_node, same.
+        leaf_node: `move right_node all element to current_node, parent_node erase next key, delete right_node.`
+        internal_node: `move and erase parent_node next key to current_node, same.`
 
 
 
