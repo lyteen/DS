@@ -1,3 +1,0 @@
-C:/Users/c1253/Desktop/DS/Data-Structure/BPlusTree/build/CMakeFiles/Btree.dir
-C:/Users/c1253/Desktop/DS/Data-Structure/BPlusTree/build/CMakeFiles/edit_cache.dir
-C:/Users/c1253/Desktop/DS/Data-Structure/BPlusTree/build/CMakeFiles/rebuild_cache.dir
