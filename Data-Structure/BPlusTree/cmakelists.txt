@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(Btree)
+
+include_directories(include)
+
+add_executable(Btree src/main.cc
+                    src/BNode.cc
+                    src/BPlusTree.cc)   

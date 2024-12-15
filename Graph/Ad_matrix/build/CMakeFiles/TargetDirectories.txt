@@ -1,3 +1,0 @@
-C:/Users/c1253/Desktop/DS/Graph/Ad_matrix/build/CMakeFiles/graph_matrix.dir
-C:/Users/c1253/Desktop/DS/Graph/Ad_matrix/build/CMakeFiles/edit_cache.dir
-C:/Users/c1253/Desktop/DS/Graph/Ad_matrix/build/CMakeFiles/rebuild_cache.dir
