@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(sort)
+
+include_directories(include)
+
+add_executable(sort src/main.cc)
