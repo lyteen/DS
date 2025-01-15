@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(queue)
+
+include_directories(include)
+
+add_executable(queue src/main.cc)
